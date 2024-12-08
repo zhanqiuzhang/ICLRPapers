@@ -1,0 +1,15 @@
+year: 2025
+save_dir: ./data
+
+llm:
+  base_url: http://127.0.0.1:9000/v1
+  api_key: your_api_key
+  model: Qwen2.5-72B-Instruct
+  
+  system_prompt: You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+
+  num_workers: 32
+
+gateway:
+   access_key_id: xxx
+   access_key_secret: xxx
